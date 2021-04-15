@@ -1,0 +1,22 @@
+{
+    "name": "jose/crud01",
+    "description": "PDO y Crud 1",
+    "license": "Free",
+    "authors": [
+        {
+            "name": "Jose Antonio",
+            "email": "jose1928death@gmail.com"
+        }
+    ],
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\":"src"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.14"
+    }
+}
